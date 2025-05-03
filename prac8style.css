@@ -1,0 +1,68 @@
+/* General Reset */
+*{ margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+    } 
+    
+    body {
+        font-family: Arial,sans-serif;
+        background: linear-gradient(135deg,#c199ec,#d5dff0 );
+        height:100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* Container for the form */
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    /* Form wrapper style */ 
+    .form-wrapper{ 
+        background-color: rgba(255,255,255,0.9);
+        padding: 30px;
+        border-radius:8px;
+        box-shadow:0 4px 8px rgba(0,0,0,0.1);
+        width:400px;
+    }
+    h2{
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 24px;
+        color: #333;
+    
+      
+    }
+    /* Style for input fields */
+    .input-group{
+        position: relative;
+        margin-bottom: 15px;
+    }
+    
+    .input-group input {
+        width: 100%;
+        padding:10px 40px;
+        border-radius: 4px;
+        border: 1px solid #ddd;
+        font-size: 16px;
+    }
+    .input-group i {
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        transform: translate(-50%);
+        font-size:18px;
+        color: hsl(0, 33%, 66%);
+    
+    
+    }
+    
+    .input-group input:focus{
+        border-colour: #2575fc;
+        outline: none;
+    }
+    input[type="date"]{
+        padding-left: 35px;
+    }
